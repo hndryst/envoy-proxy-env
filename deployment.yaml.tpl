@@ -44,6 +44,6 @@ spec:
   selector:
     app: envoy
   ports:
-    - port: 8080
+    - port: 80
       targetPort: 8080
   type: LoadBalancer
